@@ -5,7 +5,7 @@
     "Name": "Sound Deck 2.0",
     "Version": "1.0.0",
     "UUID": "com.skillz.sounddeck2",
-    "SDKVersion": 2,
+    "SDKVersion": 3,
     "Category": "Sound Deck 2.0",
     "CategoryIcon": "Images/SoundDeck/Category",
     "CodePath": "SoundDeck.exe",
@@ -67,6 +67,6 @@
         }
     ],
     "Software": {
-        "MinimumVersion": "6.4"
+        "MinimumVersion": "6.9"
     }
 }
