@@ -1,0 +1,36 @@
+{
+    "name": "sounddeck2",
+    "version": "1.0.0",
+    "author": "SkillZ",
+    "license": "MIT",
+    "scripts": {
+        "clean": "rm -rf ./node_modules && npm run dist:clean",
+        "build": "dotnet build ./src/SoundDeck.Plugin/ -c Debug && npx webpack",
+        "debug:pi": "npx webpack --watch",
+        "dist": "npm i && npm run dist:clean && npm run dist:build && npm run dist:package",
+        "dist:clean": "rm -rf ./dist",
+        "dist:build": "dotnet build ./Src/SoundDeck.Plugin/ -c Release && npx webpack --env dist",
+        "dist:package": "cd ./tools && ./DistributionTool.exe -b -i ../dist/com.geekyeggo.sounddeck.sdPlugin -o ../dist || exit 0",
+        "build:pi": "npx webpack",
+        "dist:pi": "npx webpack --env dist"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.16.0",
+        "@babel/preset-react": "^7.16.0",
+        "babel-loader": "^8.2.3",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^10.0.0",
+        "file-loader": "^6.2.0",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.64.2",
+        "webpack-cli": "^4.9.1"
+    },
+    "dependencies": {
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0",
+        "react-redux": "^7.2.4",
+        "react-sharpdeck": "file:./libs/react-sharpdeck",
+        "react-sortable-hoc": "^1.11.0",
+        "redux": "^4.1.0"
+    }
+}
