@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
@@ -23,7 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoundDeck.PI", "src\SoundDe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoundDeck.Plugin", "src\SoundDeck.Plugin\SoundDeck.Plugin.csproj", "{2B75D954-6630-4FBB-BDE4-D9C078656231}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpDeck", "..\SharpDeck\src\SharpDeck\SharpDeck.csproj", "{8EB54E40-917C-4EE9-96DE-225D419CF72A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{20F9F6C9-28A6-4849-94CA-F73374923109}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharpDeck", "SharpDeck", "{15C1BD35-4EAA-45F4-8912-618AD4937154}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BA84BD9F-5B6E-47FA-BD05-299B40E8263C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDeck", "libs\SharpDeck\src\SharpDeck\SharpDeck.csproj", "{825FD3FE-7DA2-46F6-BFE5-5703CF7D6620}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,15 +49,20 @@ Global
 		{2B75D954-6630-4FBB-BDE4-D9C078656231}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B75D954-6630-4FBB-BDE4-D9C078656231}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B75D954-6630-4FBB-BDE4-D9C078656231}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8EB54E40-917C-4EE9-96DE-225D419CF72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8EB54E40-917C-4EE9-96DE-225D419CF72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8EB54E40-917C-4EE9-96DE-225D419CF72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8EB54E40-917C-4EE9-96DE-225D419CF72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{825FD3FE-7DA2-46F6-BFE5-5703CF7D6620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{825FD3FE-7DA2-46F6-BFE5-5703CF7D6620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{825FD3FE-7DA2-46F6-BFE5-5703CF7D6620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{825FD3FE-7DA2-46F6-BFE5-5703CF7D6620}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {29A7862F-3307-4226-8932-37C596345BF0}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15C1BD35-4EAA-45F4-8912-618AD4937154} = {20F9F6C9-28A6-4849-94CA-F73374923109}
+		{BA84BD9F-5B6E-47FA-BD05-299B40E8263C} = {15C1BD35-4EAA-45F4-8912-618AD4937154}
+		{825FD3FE-7DA2-46F6-BFE5-5703CF7D6620} = {BA84BD9F-5B6E-47FA-BD05-299B40E8263C}
 	EndGlobalSection
 EndGlobal

@@ -40,7 +40,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\..\SharpDeck\src\SharpDeck\SharpDeck.csproj" />
+        <ProjectReference Include="..\..\libs\SharpDeck\src\SharpDeck\SharpDeck.csproj" />
         <ProjectReference Include="..\SoundDeck.Core\SoundDeck.Core.csproj" />
     </ItemGroup>
 

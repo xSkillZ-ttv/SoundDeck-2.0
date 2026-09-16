@@ -1,0 +1,49 @@
+name: release
+
+on:
+  push:
+    branches:
+    - '!*'
+    tags:
+    - '*'
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: '📥 Checkout'
+      uses: actions/checkout@v2
+
+    - name: '📐 Setup dotnet'
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '6.0.x'
+
+    - name: '📥 Install dependencies'
+      run: dotnet restore
+
+    - name: '🛠️ Build'
+      run: dotnet build --c Release --no-restore
+
+    - name: '🚧 Test'
+      run: dotnet test --no-restore
+
+    - name: '📝 Version'
+      id: branch_name
+      run: echo ::set-output name=TAG::${GITHUB_REF#refs/tags/v}
+
+    - name: '📦 Pack'
+      run: dotnet pack ./src/SharpDeck/ -c Release -p:Version=${{ steps.branch_name.outputs.TAG }} -p:ContinuousIntegrationBuild=true
+
+    - name: '📫 Push to NuGet'
+      env:
+        NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+      run: dotnet nuget push ./dist/*.nupkg -k "$NUGET_API_KEY" -s https://api.nuget.org/v3/index.json -n --skip-duplicate
