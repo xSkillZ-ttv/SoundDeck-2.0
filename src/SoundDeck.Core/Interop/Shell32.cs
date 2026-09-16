@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Core.Interop
+namespace SoundDeck.Core.Interop
 {
     using System;
     using System.Runtime.InteropServices;

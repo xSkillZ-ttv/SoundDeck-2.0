@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Plugin.Models.Settings
+namespace SoundDeck.Plugin.Models.Settings
 {
     using NAudio.CoreAudioApi;
     using SoundDeck.Plugin.Actions;

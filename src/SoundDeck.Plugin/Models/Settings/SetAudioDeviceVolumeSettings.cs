@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Plugin.Models.Settings
+namespace SoundDeck.Plugin.Models.Settings
 {
     using Newtonsoft.Json;
     using SoundDeck.Core.Volume;

@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Plugin.Models.Payloads
+namespace SoundDeck.Plugin.Models.Payloads
 {
     /// <summary>
     /// Provides payload information for the selection of a folder.

@@ -66,7 +66,7 @@
 ### ♻ Changed
 
 - Updated NAudio dependency ([#27](https://github.com/GeekyEggo/SoundDeck/issues/27)).
-- Logging moved to `%APPDATA%\Elgato\StreamDeck\Plugins\com.geekyeggo.sounddeck.sdPlugin\logs` ([#32](https://github.com/GeekyEggo/SoundDeck/issues/32)).
+- Logging moved to `%APPDATA%\Elgato\StreamDeck\Plugins\com.skillz.sounddeck2.sdPlugin\logs` ([#32](https://github.com/GeekyEggo/SoundDeck/issues/32)).
 - Reduced memory usage of "Clip Audio" by approx ~80% ([#49](https://github.com/GeekyEggo/SoundDeck/issues/49)).
 - Updated to .NET Framework 4.8.
 

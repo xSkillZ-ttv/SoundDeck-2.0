@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Core.Playback.Controllers
+namespace SoundDeck.Core.Playback.Controllers
 {
     using System.Threading;
     using System.Threading.Tasks;

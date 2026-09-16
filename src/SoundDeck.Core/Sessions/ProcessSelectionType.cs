@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Core.Sessions
+namespace SoundDeck.Core.Sessions
 {
     /// <summary>
     /// Defines an enumeration of ways a process can be selected.

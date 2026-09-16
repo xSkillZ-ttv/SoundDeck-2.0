@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Core.Interop
+namespace SoundDeck.Core.Interop
 {
     /// <summary>
     /// Provides a static set of guids used for interoperability.

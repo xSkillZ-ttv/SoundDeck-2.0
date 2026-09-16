@@ -21,7 +21,7 @@ namespace SoundDeck.Plugin.Actions
     /// <summary>
     /// Provides an Elgato Stream Deck action for playing an audio clip.
     /// </summary>
-    [StreamDeckAction("com.geekyeggo.sounddeck.playaudio")]
+    [StreamDeckAction("com.skillz.sounddeck2.playaudio")]
     public class PlayAudio : ActionBase<PlayAudioSettings>, IPlayAudioAction
     {
         /// <summary>

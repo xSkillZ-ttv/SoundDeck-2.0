@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Core.Sessions
+namespace SoundDeck.Core.Sessions
 {
     using System;
     using Windows.Media.Control;

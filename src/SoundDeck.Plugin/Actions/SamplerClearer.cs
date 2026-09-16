@@ -10,7 +10,7 @@ namespace SoundDeck.Plugin.Actions
     /// <summary>
     /// Provides an action that enables clearing of samples.
     /// </summary>
-    [StreamDeckAction("com.geekyeggo.sounddeck.clearsample")]
+    [StreamDeckAction("com.skillz.sounddeck2.clearsample")]
     public class SamplerClearer : StreamDeckAction
     {
         /// <summary>

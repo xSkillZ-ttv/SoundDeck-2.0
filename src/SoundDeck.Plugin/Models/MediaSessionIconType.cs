@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Plugin.Models
+namespace SoundDeck.Plugin.Models
 {
     /// <summary>
     /// Provides an enumeration of possible icons that can be shown on the Stream Deck as feedback.

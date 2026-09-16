@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Core.Extensions
+namespace SoundDeck.Core.Extensions
 {
     using System.IO;
     using System.Security.Cryptography;

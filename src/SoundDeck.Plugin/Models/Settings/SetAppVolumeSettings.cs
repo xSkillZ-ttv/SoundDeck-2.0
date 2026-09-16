@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Plugin.Models.Settings
+namespace SoundDeck.Plugin.Models.Settings
 {
     using SoundDeck.Core.Volume;
     using SoundDeck.Plugin.Actions;

@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Plugin.Models.Settings
+namespace SoundDeck.Plugin.Models.Settings
 {
     using SoundDeck.Core.Sessions;
     using SoundDeck.Plugin.Actions;

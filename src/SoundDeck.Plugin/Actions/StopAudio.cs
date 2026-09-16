@@ -10,7 +10,7 @@ namespace SoundDeck.Plugin.Actions
     /// <summary>
     /// Provides an action that can stop all audio currently being output by Sound Deck.
     /// </summary>
-    [StreamDeckAction("com.geekyeggo.sounddeck.stopaudio")]
+    [StreamDeckAction("com.skillz.sounddeck2.stopaudio")]
     public class StopAudio : StreamDeckAction
     {
         /// <summary>

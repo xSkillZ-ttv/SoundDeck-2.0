@@ -19,4 +19,4 @@ The button _should_ open a dialog that lets you choose a folder; if it appears n
 You can submit an issue or request a feature [here](https://github.com/geekyeggo/sounddeck/issues). Please be as descriptive as possible, and include any log files with issues as they are incredibly helpful when figuring out what went wrong.
 
 ### Locating Logs
-- `%appdata%\Elgato\StreamDeck\Plugins\com.geekyeggo.sounddeck.sdPlugin\logss`
+- `%appdata%\Elgato\StreamDeck\Plugins\com.skillz.sounddeck2.sdPlugin\logss`

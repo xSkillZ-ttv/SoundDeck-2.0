@@ -5,10 +5,10 @@ import SamplerSettings from "./samplerSettings";
 class App extends React.Component {
     render() {
         switch (this.props.uuid) {
-            case "com.geekyeggo.sounddeck.playaudio":
+            case "com.skillz.sounddeck2.playaudio":
                 return <PlayAudioSettings />;
 
-            case "com.geekyeggo.sounddeck.sampler":
+            case "com.skillz.sounddeck2.sampler":
                 return <SamplerSettings />;
 
             default:

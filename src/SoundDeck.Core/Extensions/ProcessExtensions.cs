@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Core.Extensions
+namespace SoundDeck.Core.Extensions
 {
     using System;
     using System.Diagnostics;

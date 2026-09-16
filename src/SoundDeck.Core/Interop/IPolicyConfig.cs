@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Copyright (C) 2015 Jeroen Pelgrims
  * Copyright (C) 2015-2021 Antoine Aflalo
  * ref: https://github.com/Belphemur/SoundSwitch

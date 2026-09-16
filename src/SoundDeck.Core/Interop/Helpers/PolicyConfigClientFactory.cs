@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Core.Interop.Helpers
+namespace SoundDeck.Core.Interop.Helpers
 {
     using System;
 

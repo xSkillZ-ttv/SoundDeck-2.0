@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Core.Volume
+namespace SoundDeck.Core.Volume
 {
     using NAudio.CoreAudioApi;
 

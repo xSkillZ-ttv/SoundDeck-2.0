@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Core.Volume
+namespace SoundDeck.Core.Volume
 {
     /// <summary>
     /// Provides information about a volume adjustment.

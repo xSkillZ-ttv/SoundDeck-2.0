@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Core
+namespace SoundDeck.Core
 {
     using System.Collections.Concurrent;
     using Windows.ApplicationModel;

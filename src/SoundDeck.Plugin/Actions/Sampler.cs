@@ -15,7 +15,7 @@ namespace SoundDeck.Plugin.Actions
     /// <summary>
     /// Provides a sampler action used to record audio, and then play it back.
     /// </summary>
-    [StreamDeckAction("com.geekyeggo.sounddeck.sampler")]
+    [StreamDeckAction("com.skillz.sounddeck2.sampler")]
     public class Sampler : CaptureActionBase<SamplerSettings, IAudioRecorder>, IPlayAudioAction
     {
         /// <summary>

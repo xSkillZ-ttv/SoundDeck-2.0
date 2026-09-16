@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Plugin.Actions
+namespace SoundDeck.Plugin.Actions
 {
     using System;
     using System.Collections.Generic;

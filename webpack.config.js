@@ -5,8 +5,8 @@ const CopyPlugin = require("copy-webpack-plugin")
 module.exports = (env, _) => {
     const source = path.resolve(__dirname, "src/SoundDeck.PI");
     const dest = env.dist
-        ? path.resolve(__dirname, "dist/com.geekyeggo.sounddeck.sdPlugin/PI")
-        : path.resolve(process.env["APPDATA"], "Elgato/StreamDeck/Plugins/com.geekyeggo.sounddeck.sdPlugin/PI");
+        ? path.resolve(__dirname, "dist/com.skillz.sounddeck2.sdPlugin/PI")
+        : path.resolve(process.env["APPDATA"], "Elgato/StreamDeck/Plugins/com.skillz.sounddeck2.sdPlugin/PI");
 
     let config = {
         entry: {

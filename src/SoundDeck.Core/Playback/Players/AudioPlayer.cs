@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Core.Playback.Players
+namespace SoundDeck.Core.Playback.Players
 {
     using System;
     using System.IO;

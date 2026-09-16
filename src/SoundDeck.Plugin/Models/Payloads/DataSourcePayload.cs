@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Plugin.Models.Payloads
+namespace SoundDeck.Plugin.Models.Payloads
 {
     /// <summary>
     /// Provides a payload that represents the request for a data source.

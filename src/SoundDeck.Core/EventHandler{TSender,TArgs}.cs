@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Core
+namespace SoundDeck.Core
 {
     /// <summary>
     /// Provides a delegate that has a typed sender and arguments.

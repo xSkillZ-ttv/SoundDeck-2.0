@@ -1,4 +1,4 @@
-﻿namespace SoundDeck.Plugin.Models.Payloads
+namespace SoundDeck.Plugin.Models.Payloads
 {
     using System.Collections.Generic;
     using System.Linq;
